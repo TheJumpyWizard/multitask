@@ -7,7 +7,7 @@ import sys
 import asyncio
 from paramiko import SSHClient
 
-from linux_install.install import ssh_connect, update_packages, install_package, run_tasks_on_servers
+from multitask.multitask import ssh_connect, update_packages, install_package, run_tasks_on_servers
 
 
 class TestAsyncScript(unittest.IsolatedAsyncioTestCase):
