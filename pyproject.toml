@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "linux-install"
+version = "0.1.0"
+description = ""
+authors = ["bk <codesage@protonmail.com>"]
+readme = "README.md"
+packages = [{include = "linux_install"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+paramiko = "^3.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
