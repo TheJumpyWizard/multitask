@@ -2,16 +2,16 @@
 Multitask is a Python script that allows you to run various maintenance tasks on multiple remote servers concurrently using asyncio and paramiko.
 
 ### Installation
-To use Async Script, you'll need to have Python 3.7 or higher installed on your system. You can download Python from the official website: https://www.python.org/downloads/
+To use Multitask, you'll need to have Python 3.7 or higher installed on your system. You can download Python from the official website: https://www.python.org/downloads/
 
-To install the dependencies for Async Script, run the following command:
+To install the dependencies for Multitask, run the following command:
 
 ``` 
 pip install -r requirements.txt
 ```
 
 ### Usage
-Async Script provides several functions for running maintenance tasks on remote servers:
+Multitask provides several functions for running maintenance tasks on remote servers:
 
 - ssh_connect(hostname, username, password): Connects to an SSH server with the given hostname, username, and password, and returns a paramiko.SSHClient object.
 - update_packages(ssh): Updates the packages on the remote server by running the apt-get update and apt-get upgrade commands.
@@ -49,7 +49,7 @@ asyncio.run(main())
 This script connects to two remote servers, updates the packages, and installs the nginx and python3 packages on both servers concurrently using the run_tasks_on_servers function.
 
 ### Testing
-Async Script comes with a test suite that can be run using the unittest module. To run the tests, simply execute the following command in your terminal:
+Multitask comes with a test suite that can be run using the unittest module. To run the tests, simply execute the following command in your terminal:
 
 ```
 python -m unittest discover tests
@@ -58,7 +58,7 @@ python -m unittest discover tests
 This will run all of the test cases in the tests directory and output the results.
 
 ### License
-Async Script is released under the MIT License. See the LICENSE file for more details.
+Multitask is released under the MIT License. See the LICENSE file for more details.
 
 ### Contributing
-If you'd like to contribute to Async Script, please fork the repository and submit a pull request. We welcome bug fixes, feature requests, and other contributions.
+If you'd like to contribute to Multitask, please fork the repository and submit a pull request. We welcome bug fixes, feature requests, and other contributions.
