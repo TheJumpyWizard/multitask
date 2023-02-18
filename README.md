@@ -21,7 +21,7 @@ Multitask provides several functions for running maintenance tasks on remote ser
 ###### To use these functions, you can create a Python script that imports them and calls them as needed. For example:
 ```
 import asyncio
-from async_script import ssh_connect, update_packages, install_package, run_tasks_on_servers
+from multitask import ssh_connect, update_packages, install_package, run_tasks_on_servers
 
 async def main():
     # Connect to the remote servers
